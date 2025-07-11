@@ -25,8 +25,15 @@ main{width: 1140px; height: 343px; margin: 0 auto;}
 .progressBar .content .progress .box{display: flex; align-items: center; flex-direction: column; }
 
 
-.card{display: flex; flex-wrap: wrap;}
+.card{display: flex; flex-wrap: wrap; gap: 20px; }
 .card .card-1{width: 366px; height: 243px; background-color: #F2EDED; border-radius: 14px; padding: 24px;}
-.card .card-1 .star{display: flex; gap: 5px;}
+.card .card-1 .star{display: flex; gap: 5px; margin-bottom: 24px;}
+.card .card-1 h1{color: #1E1E1E; font-size: 24px; margin-bottom: 8px;}
+.card .card-1 p{color: #333; font-size: 16px; margin-bottom: 24px;}
+.card .card-1 .intervewer{display: flex; gap: 12px;}
+.card .card-1 .intervewer img{border-radius: 50%; border: 3px solid  #f02400;}
+.card .card-1 .intervewer h4{color: #757575; font-size: 18px; font-weight: 600;}
+.card .card-1 .intervewer span{color: #B3B3B3; font-size: 16px; font-weight: 500;}
+
 
 
