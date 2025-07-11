@@ -1,5 +1,6 @@
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
-.section{width: 1140px; margin: o auto;}
+main{width: 1140px; height: 343px; margin: 0 auto;}
+.section{margin-top: 116px;}
 .headder{width: 100%; height: 100vh; background-image: url(Assets/Hero-bg.png);}
 .navigation{display: flex; align-items: center; justify-content: space-between; margin: 0 150px; padding: 50px 0;}
 .navigation .logoText h2{color: rgba(0, 0, 255, 0.795); font-size: 32px;}
@@ -9,5 +10,23 @@
 .headder .hero{display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center; margin-top: 158px;}
 .headder .hero h1{font-size: 65px; color: rgba(7, 7, 216, 0.726); margin-bottom: 38px;}
 
+
+.content{display: flex; align-items: center; justify-content: space-between;}
+.content .text h1{color: rgba(21, 21, 216, 0.767); font-size: 42px; font-weight: bold;}
+.content .text p{color: #333; font-size: 24px; line-height: 30px; width: 507px; margin: 23px 0;}
+.content .img img{border-radius: 48px;}
+
+.progressBar{background-color: #4d47ff80; padding: 50px 142px; margin-top: 116px; border-radius: 24px;}
+.progressBar .content{display: flex; flex-direction: column; width: 856px; margin: 0 auto;}
+.progressBar .content h1{margin-bottom: 40px; font-size: 38px; color: #252432;}
+.progressBar .content .progress{width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;}
+.progressBar .content .progress h1{font-size: 80px; color: chocolate; margin: 0 !important;}
+.progressBar .content .progress p{font-size: 24px; color: #10101083; }
+.progressBar .content .progress .box{display: flex; align-items: center; flex-direction: column; }
+
+
+.card{display: flex; flex-wrap: wrap;}
+.card .card-1{width: 366px; height: 243px; background-color: #F2EDED; border-radius: 14px; padding: 24px;}
+.card .card-1 .star{display: flex; gap: 5px;}
 
 
