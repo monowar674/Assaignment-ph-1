@@ -1,0 +1,13 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+.section{width: 1140px; margin: o auto;}
+.headder{width: 100%; height: 100vh; background-image: url(Assets/Hero-bg.png);}
+.navigation{display: flex; align-items: center; justify-content: space-between; margin: 0 150px; padding: 50px 0;}
+.navigation .logoText h2{color: rgba(0, 0, 255, 0.795); font-size: 32px;}
+.navigation .logoText h2 span{color: rgba(102, 255, 0, 0.795); font-size: 32px;}
+.button{outline: none; border: none; border-radius: 10px; background-color: rgba(0, 0, 255, 0.795); font-size: 32px; color: #fff; font-size: 18px; padding: 12px 36px;}
+
+.headder .hero{display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center; margin-top: 158px;}
+.headder .hero h1{font-size: 65px; color: rgba(7, 7, 216, 0.726); margin-bottom: 38px;}
+
+
+
