@@ -1,5 +1,7 @@
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
-main{width: 1140px; height: 343px; margin: 0 auto;}
+ul li{list-style: none;}
+a{text-decoration: none; color: #333;}
+main{width: 1140px; margin: 0 auto;}
 .section{margin-top: 116px;}
 .headder{width: 100%; height: 100vh; background-image: url(Assets/Hero-bg.png);}
 .navigation{display: flex; align-items: center; justify-content: space-between; margin: 0 150px; padding: 50px 0;}
@@ -36,4 +38,21 @@ main{width: 1140px; height: 343px; margin: 0 auto;}
 .card .card-1 .intervewer span{color: #B3B3B3; font-size: 16px; font-weight: 500;}
 
 
+.focuse{display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.focuse h1{font-size: 50px; font-weight: bold; color: #000000;}
+.focuse p{margin: 20px 0; font-size: 16px; color: #00000085;}
+.focuse .img{ width: 80%; height: auto; margin-top: 20px;}
+.focuse .img img{width: 100%; height: 100%;object-fit: cover; border-radius: 48px;}
 
+.newsletter {border-radius: 14px; display: flex; align-items: center; justify-content: space-between; gap: 150px;}
+.newsletter h1{font-size: 97px; color: #333;}
+.newsletter .form{width: 497px; padding: 71px 0; }
+.newsletter .form input{margin-top: 10px; border: none ; outline: none; width: 100%; padding: 20px 0; padding-left: 32px; margin-bottom: 19px; background-color: #f9e3e3; border-radius: 10px;}
+.newsletter .form label{margin-bottom: 10px;}
+.newsletter .form .twxtAreaBox{margin-bottom: 19px; width: 100%; outline: none; border-radius: 4px; border: none; background-color: #B3B3B3; padding-top: 20px; padding-left: 32px; font-size: 18px; line-height: 30px; font-weight: 400; color: #333;}
+
+
+footer{background-color: #757575; color: #252432; display: flex; justify-content: center; text-align: center; align-items: center; flex-direction: column; padding: 104px 0;}
+footer h1{color: rgba(0, 0, 255, 0.795); font-size: 32px;}
+footer span{color: rgba(102, 255, 0, 0.795); font-size: 32px;}
+footer h4{width: 550px; color: #333; font-size: 16px; margin: 20px 0;}
